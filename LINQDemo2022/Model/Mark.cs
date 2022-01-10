@@ -27,7 +27,7 @@ namespace LINQDemo2022.Model
 
         public override string ToString()
         {
-            return String.Format("Student {0} {1} ({3}), {4}, {5} ({6})", FirstName, LastName, ClassName, Subject, Value, Created);
+            return String.Format("Student {0} {1} ({2}), {3}, {4} ({5})", FirstName, LastName, ClassName, Subject, Value, Created);
         }
     }
 }
